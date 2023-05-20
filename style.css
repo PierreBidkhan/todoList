@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+  }
+  
+  .todo-form {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .todo-form input {
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .todo-list {
+    margin-top: 20px;
+  }
+  
+  .to-do-list {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .list-group-item {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .bullet-point {
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+  
+  .remove-button {
+    margin-left: auto;
+  }
+  
+  .todo-text {
+    text-align: left;
+    overflow: hidden;
+    white-space: pre-wrap;
+    text-overflow: ellipsis;
+  }
+
+  .completed .todo-text {
+    text-decoration: line-through;
+  }
+  
+  
